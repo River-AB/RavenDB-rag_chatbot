@@ -1,6 +1,6 @@
 1# 🧠 Grip: A RAG-Based Chatbot for RavenDB
 
-<img src="images/logo.png" alt="Grip Logo" width="100" align="right">
+<img src="Images/logo.png" alt="Grip Logo" width="100" align="right">
 
 **Grip** is a secure and professional Retrieval-Augmented Generation (RAG) chatbot designed to assist users with RavenDB usage, including querying, indexing, security, and configuration. It is hosted locally using Flask and powered by OpenAI’s `gpt-4o-mini`. Contextual information is retrieved live from a RavenDB database.
 
@@ -10,7 +10,7 @@
 
 ## 🖥️ Interface Preview
 
-<img src="images/3.png" alt="UI Screenshot" width="100%">
+<img src="Images/3.png" alt="UI Screenshot" width="100%">
 
 ---
 
@@ -50,10 +50,10 @@ User Input
 - Sidebar for chat sessions
 - Markdown-formatted bot responses
 - Session locking notification  
-  <img src="images/2.png" alt="Session Lock Example" width="80%">
+  <img src="Images/2.png" alt="Session Lock Example" width="80%">
 
 - User interaction with typing animation  
-  <img src="images/1.png" alt="Chat Interface Example" width="80%">
+  <img src="Images/1.png" alt="Chat Interface Example" width="80%">
 
 ---
 
@@ -66,7 +66,7 @@ The `rag_chunker_script.py` tool is used to pre-process Markdown files:
 - Stores them as `ContextChunk` documents in RavenDB under `Context` collection
 
 RavenDB sample view:  
-<img src="images/4.png" alt="Database Screenshot" width="100%">
+<img src="Images/4.png" alt="Database Screenshot" width="100%">
 
 ---
 
